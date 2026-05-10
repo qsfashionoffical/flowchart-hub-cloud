@@ -1,0 +1,10 @@
+{
+  "buildCommand": "echo 'static deploy - skipping build'",
+  "outputDirectory": "public",
+  "framework": null,
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/hub.html" },
+    { "source": "/index.html", "destination": "/hub.html" }
+  ]
+}
