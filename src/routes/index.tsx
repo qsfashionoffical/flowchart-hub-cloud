@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect } from "react";
+import React from "react";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -17,7 +18,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   useEffect(() => {
-    window.location.replace("/hub.html");
+    window.location.replace("/index.html");
   }, []);
   return (
     <div style={{ minHeight: "100vh", background: "#04051a", color: "#f1f5f9", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "sans-serif" }}>
